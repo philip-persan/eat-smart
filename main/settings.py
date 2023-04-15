@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'corsheaders',
     # * My App's
+    'users',
 ]
 
 PASSWORD_HASHERS = [
@@ -131,6 +132,8 @@ USE_TZ = True
 USE_THOUSAND_SEPARATOR = True
 
 THOUSAND_SEPARATOR = '.'
+
+AUTH_USER_MODEL = "users.User"
 
 
 # Static files (CSS, JavaScript, Images)
