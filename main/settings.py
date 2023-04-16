@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'metas',
     'dieta',
     'alimentos',
+    'refeicao',
 ]
 
 PASSWORD_HASHERS = [
